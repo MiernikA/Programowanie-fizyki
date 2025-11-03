@@ -5,9 +5,7 @@ This project demonstrates 2D physics simulations.
 
 The goal is to build a clear, modular, and stylistically consistent codebase — using `pygame.Vector2`.
 
-Author: Adrian Miernik
-
-
+<br>
 
 ## Description
 - `settings.py` – global constants (window size, gravity, stiffness, etc.)
