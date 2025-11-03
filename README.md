@@ -1,9 +1,9 @@
 
 # Programowanie-fizyki  
 
-This project demonstrates 2D physics simulations, including soft-body dynamics (a jelly-like structure modeled as a mass-spring system), ramp collisions with rigid bodies, and other physical phenomena.  
+This project demonstrates 2D physics simulations.
 
-The goal is to build a clear, modular, and stylistically consistent codebase — using `pygame.Vector2`, unified class/method naming, and physics-explaining comments.
+The goal is to build a clear, modular, and stylistically consistent codebase — using `pygame.Vector2`.
 
 Author: Adrian Miernik
 

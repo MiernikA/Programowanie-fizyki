@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecac5bc4-fd43-4711-9231-39e6a5d208f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/balls.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/cloth.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/softbody.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/equations/bounce_math.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/equations/cloth_math.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/equations/softbody_math.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ecac5bc4-fd43-4711-9231-39e6a5d208f2" name="Changes" comment="add readme">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +87,19 @@
       <option name="presentableId" value="Default" />
       <updated>1750609625302</updated>
     </task>
+    <task id="LOCAL-00001" summary="add readme">
+      <option name="closed" value="true" />
+      <created>1762211390652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762211390652</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="add readme" />
   </component>
 </project>
