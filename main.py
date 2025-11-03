@@ -1,28 +1,30 @@
-import tkinter as tk
-import subprocess
+import streamlit as st
 import os
+import subprocess
+
+st.set_page_config(page_title="Physics Programming", page_icon="🧠")
 
 PROJECTS_DIR = os.path.join(os.path.dirname(__file__), "projects")
+projects = [f for f in os.listdir(PROJECTS_DIR) if f.endswith(".py")]
 
-PROJECTS = [
-    "SoftBodyCollision.py",
-    "TikTokBallCollision.py",
-    "VerletCloth.py"
-]
+st.title("🧠 Physics Programming")
+st.write("Select a project to run:")
 
-def run_script(script_name):
-    script_path = os.path.join(PROJECTS_DIR, script_name)
-    subprocess.run(["python", script_path])
+selected = st.selectbox("Available projects:", projects)
 
-root = tk.Tk()
-root.title("Physics Simulations Launcher")
-root.geometry("800x400")
+if st.button("▶ Run project"):
+    st.info(f"Running {selected}...")
 
-label = tk.Label(root, text="Wybierz projekt do uruchomienia:", font=("Arial", 12))
-label.pack(pady=10)
+    script_path = os.path.join(PROJECTS_DIR, selected)
 
-for project in PROJECTS:
-    btn = tk.Button(root, text=project, command=lambda p=project: run_script(p), height=2, width=25)
-    btn.pack(pady=5)
+    result = subprocess.run(
+        ["python", script_path],
+        capture_output=True,
+        text=True
+    )
 
-root.mainloop()
+    st.subheader("📜 Program output:")
+    st.code(result.stdout or "(no output)", language="python")
+
+    if result.stderr:
+        st.error(result.stderr)

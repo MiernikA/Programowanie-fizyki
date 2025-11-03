@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecac5bc4-fd43-4711-9231-39e6a5d208f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Programowanie-fizyki.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoftBodyCollision.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/SoftBodyCollision.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TikTokBallCollision.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/TikTokBallCollision.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VerletCloth.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/VerletCloth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
